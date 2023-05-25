@@ -1,0 +1,133 @@
+.chart-heading {
+  font-family: "Rubik", sans-serif;
+  color: #023047;
+  text-transform: uppercase;
+  font-size: 24px;
+  text-align: center;
+}
+
+.box {
+  width: 200px;
+  /* border : 1px solid red; */
+}
+
+.supbox {
+  position: absolute;
+  width: 100px;
+  /* border : 1px solid red; */
+  margin-top: 8%;
+  margin-left: 4.5%;
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 1%;
+  width: 20%;
+  /* border : 1px solid red; */
+}
+.p1 {
+  font-weight: 700;
+  font-size: 40px;
+  color: rgb(17, 172, 68);
+}
+
+.p2 {
+  font-weight: 700;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.result {
+  text-align: center;
+  width: 100%;
+  height: 50vh;
+  overflow: hidden;
+  /* border : 1px solid rgb(255, 0, 128); */
+}
+.subresult {
+  width: 100%;
+  height: 50vh;
+  overflow: hidden;
+  display: flex;
+  /* border : 1px solid red; */
+}
+
+.details {
+  margin: 30px auto;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.weather-stats {
+  font-family: "Rubik", sans-serif;
+  /* display: flex; */
+  align-items: center;
+  text-align: center;
+  gap: 24px;
+  margin: 0 auto;
+  width: fit-content;
+  /* border-radius: 20px; */
+  padding: 8px 32px;
+  color: #023047;
+  border-radius: 0.8rem;
+  height: 35vh;
+  background-color: rgb(255, 255, 255);
+  /* border : 1px solid rgb(28, 1, 151) */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+  /* font-family: sans-serif; */
+  font-family: "Kanit", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: url(images/table.jpg) center / cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.table {
+  width: 70vw;
+  height: 90vh;
+  background-color: rgba(255, 255, 255, 0.623);
+
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0.4rem 0.8rem #0005;
+  border-radius: 0.8rem;
+
+  overflow: hidden;
+}
+
+button {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 0.5em;
+  border: solid 0.25em transparent;
+  padding: 0.1em 0.5em;
+  border-radius: 9em;
+  background: linear-gradient(to right bottom, var(--slist)) border-box;
+  font: 500 2em "Kanit", sans-serif;
+  text-transform: uppercase;
+
+  &::after {
+    content: attr(data-ico);
+  }
+  cursor: pointer;
+}
+
+button:hover {
+  background: linear-gradient(to right bottom, var(--slist)) border-box;
+  color: #fff;
+  /* color: rgb(255, 208, 19); */
+}
