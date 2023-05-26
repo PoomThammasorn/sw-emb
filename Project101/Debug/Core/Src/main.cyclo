@@ -1,0 +1,15 @@
+main.c:73:6:delay	2
+main.c:81:6:Set_Pin_Output	1
+main.c:89:6:Set_Pin_Input	1
+main.c:97:6:DHT11_Start	1
+main.c:106:9:Check_Response	4
+main.c:122:9:DHT11_Read	5
+main.c:139:6:check_state	7
+main.c:162:5:main	6
+main.c:248:6:SystemClock_Config	3
+main.c:295:13:MX_ADC1_Init	3
+main.c:347:13:MX_TIM1_Init	4
+main.c:393:13:MX_USART1_UART_Init	2
+main.c:426:13:MX_USART2_UART_Init	2
+main.c:459:13:MX_GPIO_Init	1
+main.c:509:6:Error_Handler	1
